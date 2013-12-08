@@ -21,7 +21,15 @@
 		8442123D1853F8050075DEDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844212191853F8050075DEDD /* Foundation.framework */; };
 		8442123E1853F8050075DEDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8442121D1853F8050075DEDD /* UIKit.framework */; };
 		844212461853F8050075DEDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844212441853F8050075DEDD /* InfoPlist.strings */; };
-		844212481853F8050075DEDD /* MyBrowseOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844212471853F8050075DEDD /* MyBrowseOverflowTests.m */; };
+		844212521853F9680075DEDD /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844212511853F9680075DEDD /* TopicTests.m */; };
+		844212551853FA280075DEDD /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 844212541853FA280075DEDD /* Topic.m */; };
+		844212561853FA280075DEDD /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 844212541853FA280075DEDD /* Topic.m */; };
+		84421258185400FA0075DEDD /* QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84421257185400FA0075DEDD /* QuestionTests.m */; };
+		8442125B1854017C0075DEDD /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442125A1854017C0075DEDD /* Question.m */; };
+		8442125C1854017C0075DEDD /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442125A1854017C0075DEDD /* Question.m */; };
+		8442125E18550C810075DEDD /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442125D18550C810075DEDD /* PersonTests.m */; };
+		8442126118550D730075DEDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442126018550D730075DEDD /* Person.m */; };
+		8442126218550D730075DEDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442126018550D730075DEDD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +63,15 @@
 		8442123B1853F8050075DEDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		844212431853F8050075DEDD /* MyBrowseOverflowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyBrowseOverflowTests-Info.plist"; sourceTree = "<group>"; };
 		844212451853F8050075DEDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		844212471853F8050075DEDD /* MyBrowseOverflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBrowseOverflowTests.m; sourceTree = "<group>"; };
+		844212511853F9680075DEDD /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
+		844212531853FA280075DEDD /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		844212541853FA280075DEDD /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		84421257185400FA0075DEDD /* QuestionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTests.m; sourceTree = "<group>"; };
+		844212591854017C0075DEDD /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = MyBrowseOverflowTests/Question.h; sourceTree = SOURCE_ROOT; };
+		8442125A1854017C0075DEDD /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = MyBrowseOverflowTests/Question.m; sourceTree = SOURCE_ROOT; };
+		8442125D18550C810075DEDD /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
+		8442125F18550D730075DEDD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8442126018550D730075DEDD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +131,12 @@
 		8442121F1853F8050075DEDD /* MyBrowseOverflow */ = {
 			isa = PBXGroup;
 			children = (
+				8442125F18550D730075DEDD /* Person.h */,
+				8442126018550D730075DEDD /* Person.m */,
+				844212531853FA280075DEDD /* Topic.h */,
+				844212541853FA280075DEDD /* Topic.m */,
+				844212591854017C0075DEDD /* Question.h */,
+				8442125A1854017C0075DEDD /* Question.m */,
 				844212281853F8050075DEDD /* AppDelegate.h */,
 				844212291853F8050075DEDD /* AppDelegate.m */,
 				8442122B1853F8050075DEDD /* Main.storyboard */,
@@ -142,7 +164,9 @@
 		844212411853F8050075DEDD /* MyBrowseOverflowTests */ = {
 			isa = PBXGroup;
 			children = (
-				844212471853F8050075DEDD /* MyBrowseOverflowTests.m */,
+				8442125D18550C810075DEDD /* PersonTests.m */,
+				844212511853F9680075DEDD /* TopicTests.m */,
+				84421257185400FA0075DEDD /* QuestionTests.m */,
 				844212421853F8050075DEDD /* Supporting Files */,
 			);
 			path = MyBrowseOverflowTests;
@@ -256,7 +280,10 @@
 			files = (
 				8442122A1853F8050075DEDD /* AppDelegate.m in Sources */,
 				844212301853F8050075DEDD /* MasterViewController.m in Sources */,
+				8442126118550D730075DEDD /* Person.m in Sources */,
 				844212261853F8050075DEDD /* main.m in Sources */,
+				8442125B1854017C0075DEDD /* Question.m in Sources */,
+				844212551853FA280075DEDD /* Topic.m in Sources */,
 				844212331853F8050075DEDD /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844212481853F8050075DEDD /* MyBrowseOverflowTests.m in Sources */,
+				8442126218550D730075DEDD /* Person.m in Sources */,
+				844212561853FA280075DEDD /* Topic.m in Sources */,
+				84421258185400FA0075DEDD /* QuestionTests.m in Sources */,
+				8442125C1854017C0075DEDD /* Question.m in Sources */,
+				844212521853F9680075DEDD /* TopicTests.m in Sources */,
+				8442125E18550C810075DEDD /* PersonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
