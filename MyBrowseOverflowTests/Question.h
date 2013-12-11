@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+@class Answer;
 @interface Question : NSObject
 
-@property NSDate * date;
-@property NSString * title;
-@property NSInteger score; 
+@property (retain) NSDate * date;
+@property (copy) NSString * title;
+@property NSInteger score;
+@property (readonly) NSArray * answers;
+
+-(void)addAnswer: (Answer *)answer;
 
 @end
